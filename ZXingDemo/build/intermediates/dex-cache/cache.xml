@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\pre-dexed\debug\classes-b7bb0c019a378393810b6f3d3f3c6d29dababbf4.jar" />
+    </item>
+    <item
+        jar="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-5f17b2adc2afe31d4dc3021039df072fda4c85c2.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-83ac548117bb948ad8a14d323618a84860c21634.jar" />
+    </item>
+    <item
+        jar="D:\WorkPlace\Android&amp;java\ZXingDemo\app\libs\core-3.0.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fb52cf43975eb06d1696b341b5b7d8e40e8a59e5">
+        <dex dex="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\pre-dexed\debug\core-3.0.0-52e15c8c70846a77a2faed86ea249a2640a5c275.jar" />
+    </item>
+    <item
+        jar="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\WorkPlace\Android&amp;java\ZXingDemo\app\build\intermediates\pre-dexed\debug\classes-a3c60331c463b0687972385cb564a01856804bdc.jar" />
+    </item>
+
+</items>

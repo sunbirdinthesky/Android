@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".FullscreenActivity">
+
+    <TextView android:id="@+id/wcfullscreen_content" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:keepScreenOn="true" />
+
+    <customeView.MyVideoView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/wAds"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttons"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="312dp"
+            android:layout_height="103dp"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/wSurvey"
+                android:layout_gravity="left|bottom"
+                android:background="@mipmap/m_survey"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/wHome"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="@mipmap/m_home" />
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/wScan"
+                android:layout_gravity="right|bottom"
+                android:background="@mipmap/m_scan"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="133dp"
+            android:layout_height="140dp"
+            android:layout_gravity="left|top">
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/wReturn"
+                android:layout_gravity="left|top"
+                android:background="@mipmap/w_back" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="116dp"
+            android:layout_height="141dp"
+            android:layout_gravity="right|top">
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/wRefresh"
+                android:layout_gravity="right|top"
+                android:background="@mipmap/w_refresh" />
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".FullscreenActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fullBackgroung"
+        android:keepScreenOn="true" />
+
+    <FrameLayout
+        android:layout_width="497dp"
+        android:layout_height="201dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="27dp"
+            android:text="观看广告"
+            android:id="@+id/textView1"
+            android:layout_gravity="left|bottom"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/mScan"
+            android:layout_gravity="right|center_vertical"
+            android:background="@mipmap/m_scan"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="27dp"
+            android:text="回答问卷"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="27dp"
+            android:text="扫一扫"
+            android:id="@+id/textView3"
+            android:layout_gravity="right|bottom"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/mSurvey"
+            android:layout_gravity="left|center_vertical"
+            android:background="@mipmap/m_survey"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            android:id="@+id/mWatchAds"
+            android:layout_gravity="center"
+            android:background="@mipmap/m_watch_ads"
+            android:clickable="false" />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/setup"
+        android:layout_gravity="right|top"
+        android:visibility="visible"
+        android:background="@mipmap/setup" />
+
+    <customeView.MyVideoView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/repeat_ads"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

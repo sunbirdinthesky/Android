@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Survey">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/surveyBackground"
+        android:keepScreenOn="true"
+        android:layout_gravity="center" />
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suHome"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/m_home"
+            android:layout_marginTop="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suWatchAds"
+            android:layout_gravity="left|center_vertical"
+            android:background="@mipmap/m_watch_ads"
+            android:clickable="false"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/suHome"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suScan"
+            android:layout_gravity="right|center_vertical"
+            android:background="@mipmap/m_scan"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suRefresh"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@mipmap/w_refresh"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/suScan"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="111dp"
+        android:layout_height="115dp"
+        android:layout_gravity="left|top">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suReturn"
+            android:background="@mipmap/w_back"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:minHeight="355dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/questionlist">
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
